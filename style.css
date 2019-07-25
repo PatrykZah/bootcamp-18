@@ -1,0 +1,30 @@
+* {
+	box-sizing: border-box;
+}
+#app {
+	width: 500px;
+	margin: auto;
+	text-align: center;
+	border: 1px solid black;
+	border-radius: 20px;
+}
+
+#app .counter {
+	display: flex;
+	height: 100px;
+	padding: 0 10px
+}
+
+#app .counter .controls {
+	margin: auto 0 auto 0;
+}
+#app .counter button {
+	display: block;
+	border: 1px solid black;
+	height: 25px;
+	width: 25px;
+}
+
+#app .counter span {
+	margin: auto;
+}
